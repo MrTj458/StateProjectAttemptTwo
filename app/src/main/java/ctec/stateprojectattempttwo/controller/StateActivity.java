@@ -33,11 +33,11 @@ public class StateActivity extends Activity
     {
         nextScreenButton.setOnClickListener(new View.OnClickListener()
         {
-           public void onClick(View clickView)
-           {
-               Intent changeScreen = new Intent(clickView.getContext(), BackPageActivity.class);
-               startActivityForResult(changeScreen, 0);
-           }
+            public void onClick(View clickView)
+            {
+                Intent changeScreen = new Intent(clickView.getContext(), BackPageActivity.class);
+                startActivityForResult(changeScreen, 0);
+            }
         });
     }
 }
